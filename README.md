@@ -2,7 +2,7 @@
 Object detection in images and in real time videos.<br>
 ## Object Detection in Images
 To Detect objects in images, I have used the famous YOLO algorithm ("You Only Look Once"). The algorithm works by framing object detection in images as a regression problem to spatially separated bounding boxes and associated class probabilities. In this approach, a single neural network divides the image into regions and predicts bounding boxes and probabilities for each region. The neural network predicts bounding boxes and class probabilities directly from full images in one evaluation. The base YOLO model processes images in real-time at 45 frames per second. To read more, refer to the paper [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/pdf/1506.02640v5.pdf).<br>
-Here I have used **YOLOv3** algorithm. For reference: [YOLOv3: An Incremental Improvement](https://pjreddie.com/media/files/papers/YOLOv3.pdf).<br><br>
+Here I have used **YOLOv3** algorithm. For reference: [YOLOv3: An Incremental Improvement](https://pjreddie.com/media/files/papers/YOLOv3.pdf) and [Github](https://github.com/pjreddie/darknet).<br><br>
 **Important Libraries**<br>
 *numpy* and *opencv* are the main libraries in the code. If you are running the code make sure you have these installed or simply use these commands in the command prompt:
 ```
@@ -13,8 +13,8 @@ pip install opencv-python
 ```
 **Important Files**<br>
 Download the files and save it inside a folder and update the path to these files in the code. Folowing files have been used during training the model:<br>
-[coco.names.txt](https://github.com/pjreddie/darknet/blob/master/data/coco.names)<br>
-[yolov3.cfg.txt](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg)<br>
+[coco.names.txt](https://github.com/Marisha18/Object_Detection/blob/main/coco.names.txt)<br>
+[yolov3.cfg.txt](https://github.com/Marisha18/Object_Detection/blob/main/yolov3.cfg.txt)<br>
 [yolov3.weights](https://pjreddie.com/media/files/yolov3.weights)<br><br>
 **Running The Code**<br>
 You can now run the file by giving this command on your command prompt:
@@ -29,13 +29,13 @@ Object Detection Using SSD MobileNet. The mobilenet-ssd model is a Single-Shot m
 *opencv* is the main library in the code. If you are running the code make sure you have it installed.<br><br>
 **Important Files**<br>
 Download the files and save it inside a folder and update the path to these files in the code. Folowing files have been used during training the model:<br>
-[coco.names](https://github.com/pjreddie/darknet/blob/master/data/coco.names)<br>
-
-<br>
-**Running The Code**<br>
+[coco.names.txt](https://github.com/Marisha18/Object_Detection/blob/main/coco.names.txt)<br>
+[ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt](https://github.com/Marisha18/Object_Detection/blob/main/ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt)<br>
+[frozen_inference_graph.pb](https://github.com/Marisha18/Object_Detection/blob/main/frozen_inference_graph.pb)<br><br>
+<b>Running The Code</b><br>
 You can now run the file by giving this command on your command prompt:
 ```
-python objdet.py
+python ssd.py
 ```
 Press **q** to quit the window of the image showing object detection.<br>
-________________________________________
+___________________________________________________
