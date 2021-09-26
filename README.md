@@ -17,7 +17,7 @@ Download the files and save it inside a folder and update the path to these file
 [yolov3.cfg.txt](https://github.com/Marisha18/Object_Detection/blob/main/yolov3.cfg.txt)<br>
 [yolov3.weights](https://pjreddie.com/media/files/yolov3.weights)<br><br>
 **Running The Code**<br>
-You can now run the file by giving this command on your command prompt:
+You can now run the file by giving a similar command on your command prompt:
 ```
 python yolo.py --image images/ipl.jpeg
 ```
