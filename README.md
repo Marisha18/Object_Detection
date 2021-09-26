@@ -13,7 +13,7 @@ pip install opencv-python
 ```
 **Important Files**<br>
 Download the files and save it inside a folder and update the path to these files in the code. Folowing files have been used during training the model:<br>
-[coco.names.txt](https://github.com/Marisha18/Object_Detection/blob/main/coco.names.txt)<br>
+[yolo.coco.names.txt](https://github.com/Marisha18/Object_Detection/blob/main/yolo.coco.names.txt)<br>
 [yolov3.cfg.txt](https://github.com/Marisha18/Object_Detection/blob/main/yolov3.cfg.txt)<br>
 [yolov3.weights](https://pjreddie.com/media/files/yolov3.weights)<br><br>
 **Running The Code**<br>
@@ -29,7 +29,7 @@ Object Detection Using **SSD MobileNet**. The mobilenet-ssd model is a Single-Sh
 *opencv* is the main library in the code. If you are running the code make sure you have it installed.<br><br>
 **Important Files**<br>
 Download the files and save it inside a folder and update the path to these files in the code. Folowing files have been used during training the model:<br>
-[coco.names.txt](https://github.com/Marisha18/Object_Detection/blob/main/coco.names.txt)<br>
+[ssd.coco.names.txt](https://github.com/Marisha18/Object_Detection/blob/main/ssd.coco.names.txt)<br>
 [ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt](https://github.com/Marisha18/Object_Detection/blob/main/ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt)<br>
 [frozen_inference_graph.pb](https://github.com/Marisha18/Object_Detection/blob/main/frozen_inference_graph.pb)<br><br>
 <b>Running The Code</b><br>
